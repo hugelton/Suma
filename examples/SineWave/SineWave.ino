@@ -11,8 +11,6 @@ uint16_t sineWaveTick(Oscillator& osc) {
 Oscillator sinOscillator(sineWaveTick, 440.0f, WAVE_LENGTH);
 // Oscillator sawOscillator(sawWaveTick, 440.0f, WAVE_LENGTH);
 
-bool checkState = false;
-
 void setup() {
   pinMode(2, OUTPUT);
   
