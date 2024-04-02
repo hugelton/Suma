@@ -8,6 +8,14 @@ Suma is easy way to make sound device by modern Arduino.
 
 **Now supported only SAMD21 mcu**
 
+
+### TODO
+- Support other samd/rp2040/esp
+- clip function
+- waveshaper/phase-distortion/cross-fade synthesis
+- portament function
+- hz-midi convertion
+
 ### Supported board
 
 | Board                          | Tested | CPU    | DAC       |
@@ -19,6 +27,7 @@ Suma is easy way to make sound device by modern Arduino.
 | Arduino MKR WiFi 1010          | -      | SAMD21 | 1ch/10bit |
 | Adafruit ItsyBitsy M4 Express  | -      | SAMD51 | 2ch/12bit |
 | RaspberryPi Pico               | -      | RP2040 | PWM       |
+
 
 ## API Reference
 
