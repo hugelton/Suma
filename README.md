@@ -1,6 +1,6 @@
 # Suma
 
-Sound Utillities for Microprocessor Audio
+須磨 Sound Utillities for Microprocessor Audio
 
 ## Overview
 
