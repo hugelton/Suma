@@ -27,8 +27,6 @@ void loop() {
 void audioLoop() {
   uint16_t sample = sinOscillator.tick();  // get new sample from osc instance
 
-  checkState = !checkState;
-  digitalWrite(2, checkState);
   // uint16_t sample = sawOscillator.tick();
   writeDAC(sample);
 }
